@@ -15,14 +15,13 @@ public class GameControler : MonoBehaviour {
     public GameObject SendToBtn;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
         score = 0;
-    }
+    	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+	void Update () {}
 
     public void GameOver()
     {
